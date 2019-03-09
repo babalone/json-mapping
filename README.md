@@ -28,6 +28,7 @@ to a structure containing
   ...
 }
 ```
+Where the result of someFunction(2) should be placed there and not a text containing the function name.
 
 ## TODO
 - First some research has to be done on if this was already implemented.
