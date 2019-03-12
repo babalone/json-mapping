@@ -30,6 +30,9 @@ to a structure containing
 ```
 Where the result of someFunction(2) should be placed there and not a text containing the function name.
 
+## Idea
+You start a mapping first with source-JSON as parameter. This source-JSON can be of any format (a String containing JSONM; a Jackson JSON; 
+
 ## TODO
 - First some research has to be done on if this was already implemented.
 - is the existing solution sufficient?
