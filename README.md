@@ -5,7 +5,7 @@ a tool to to mappings of one json-format to another using jsonpath
 In the last years I was many times confronted with "copy this value V at key X to the new dataset at key Y with value modify(V)". All based on [JSON](https://en.wikipedia.org/wiki/JSON). Goal of this library is to build a tool that uses [json-path](https://github.com/json-path/JsonPath) to map these values.
 Using this library might look like
 ```java
-someThing.map("$.someKey.something[0]", "$.someOtherKey");
+someThing.map("$.someKey.something[0]", "$.someOtherKey"); // almost equal to next line, but the function would be the identity function
 someThing.map("$.someKey.something[0]", "$.someOtherKey", this::someFunction);
 ```
 which would map 
